@@ -280,4 +280,3 @@ window.verification = {
         .catch((e) => console.log(e))
     }
 }
-CreatPromise.reject(1).then((e) => {console.log(e+'1')}).then((e) => {console.log(e+'2')}).catch((e) => {console.log(e+'3');return 'sucess'}).then((res) => console.log(res))
